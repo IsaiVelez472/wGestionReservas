@@ -1,0 +1,10 @@
+C:\Users\isaiv\source\repos\wfGestionReservas\wfGestionReservas\bin\Debug\wfGestionReservas.exe.config
+C:\Users\isaiv\source\repos\wfGestionReservas\wfGestionReservas\bin\Debug\wfGestionReservas.exe
+C:\Users\isaiv\source\repos\wfGestionReservas\wfGestionReservas\bin\Debug\wfGestionReservas.pdb
+C:\Users\isaiv\source\repos\wfGestionReservas\wfGestionReservas\obj\Debug\wfGestionReservas.csproj.AssemblyReference.cache
+C:\Users\isaiv\source\repos\wfGestionReservas\wfGestionReservas\obj\Debug\wfGestionReservas.FrmReservas.resources
+C:\Users\isaiv\source\repos\wfGestionReservas\wfGestionReservas\obj\Debug\wfGestionReservas.Properties.Resources.resources
+C:\Users\isaiv\source\repos\wfGestionReservas\wfGestionReservas\obj\Debug\wfGestionReservas.csproj.GenerateResource.cache
+C:\Users\isaiv\source\repos\wfGestionReservas\wfGestionReservas\obj\Debug\wfGestionReservas.csproj.CoreCompileInputs.cache
+C:\Users\isaiv\source\repos\wfGestionReservas\wfGestionReservas\obj\Debug\wfGestionReservas.exe
+C:\Users\isaiv\source\repos\wfGestionReservas\wfGestionReservas\obj\Debug\wfGestionReservas.pdb

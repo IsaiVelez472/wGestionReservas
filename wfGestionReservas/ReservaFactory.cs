@@ -9,7 +9,7 @@ namespace wfGestionReservas
         {
             try
             {
-                switch (tipo)
+                switch (tipo)   
                 {
                     case "Estandar":
                         return new HabitacionEstandar(nombreCliente, numeroHabitacion, fechaReserva, duracionEstadia, tarifaPorNoche);
