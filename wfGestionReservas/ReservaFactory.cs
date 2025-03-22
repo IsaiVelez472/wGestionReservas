@@ -1,5 +1,5 @@
 ﻿using System;
-using wfGestionReservas;
+using System.Windows.Forms;
 
 namespace wfGestionReservas
 {
@@ -7,17 +7,24 @@ namespace wfGestionReservas
     {
         public static Reserva CrearReserva(string tipo, string nombreCliente, int numeroHabitacion, DateTime fechaReserva, int duracionEstadia, double tarifaPorNoche)
         {
-            if (tipo == "Estandar")
+            try
             {
-                return new HabitacionEstandar(nombreCliente, numeroHabitacion, fechaReserva, duracionEstadia, tarifaPorNoche);
+                switch (tipo)
+                {
+                    case "Estandar":
+                        return new HabitacionEstandar(nombreCliente, numeroHabitacion, fechaReserva, duracionEstadia, tarifaPorNoche);
+
+                    case "VIP":
+                        return new HabitacionVIP(nombreCliente, numeroHabitacion, fechaReserva, duracionEstadia, tarifaPorNoche);
+
+                    default:
+                        throw new ArgumentException("Tipo de reserva no válido");
+                }
             }
-            else if (tipo == "VIP")
+            catch (Exception ex)
             {
-                return new HabitacionVIP(nombreCliente, numeroHabitacion, fechaReserva, duracionEstadia, tarifaPorNoche);
-            }
-            else
-            {
-                throw new ArgumentException("Tipo de reserva no valido");
+                MessageBox.Show($"Error al crear la reserva: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return null;
             }
         }
     }

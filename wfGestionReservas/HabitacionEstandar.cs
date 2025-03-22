@@ -9,10 +9,8 @@ namespace wfGestionReservas
         public HabitacionEstandar(string nombreCliente, int numeroHabitacion, DateTime fechaReserva, int duracionEstadia, double tarifaPorNoche)
             : base(nombreCliente, numeroHabitacion, fechaReserva, duracionEstadia)
         {
-            if (TarifaPorNoche <= 0)
-            {
-                throw new ArgumentException("La tarifa por noche debe ser mayor a cero.");
-            }
+            if (TarifaPorNoche <= 0) throw new ArgumentException("La tarifa por noche debe ser mayor a cero.");
+            
             TarifaPorNoche = tarifaPorNoche;
         }
 
