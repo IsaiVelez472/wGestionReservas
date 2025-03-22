@@ -4,6 +4,7 @@ namespace wfGestionReservas
 {
     public abstract class Reserva
     {
+        public Guid Id { get; }
         public string NombreCliente { get; set; }
         public int NumeroHabitacion { get; set; }
         public DateTime FechaReserva { get; set; }
@@ -11,6 +12,8 @@ namespace wfGestionReservas
 
         public Reserva(string nombreCliente, int numeroHabitacion, DateTime fechaReserva, int duracionEstadia)
         {
+            Id = Guid.NewGuid();
+
             if (string.IsNullOrWhiteSpace(nombreCliente))
             {
                 throw new ArgumentException("El nombre del cliente no puede estar vacio.");

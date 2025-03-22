@@ -7,19 +7,19 @@
       "RelativeMoniker": "D:0:0:{51A7EB47-A42F-4633-A7D0-FA59464F1EE8}|wfGestionReservas\\wfGestionReservas.csproj|solutionrelative:wfgestionreservas\\gestorreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51A7EB47-A42F-4633-A7D0-FA59464F1EE8}|wfGestionReservas\\wfGestionReservas.csproj|c:\\users\\isaiv\\source\\repos\\wfgestionreservas\\wfgestionreservas\\habitacionvip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51A7EB47-A42F-4633-A7D0-FA59464F1EE8}|wfGestionReservas\\wfGestionReservas.csproj|solutionrelative:wfgestionreservas\\habitacionvip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51A7EB47-A42F-4633-A7D0-FA59464F1EE8}|wfGestionReservas\\wfGestionReservas.csproj|c:\\users\\isaiv\\source\\repos\\wfgestionreservas\\wfgestionreservas\\habitacionestandar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51A7EB47-A42F-4633-A7D0-FA59464F1EE8}|wfGestionReservas\\wfGestionReservas.csproj|solutionrelative:wfgestionreservas\\habitacionestandar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51A7EB47-A42F-4633-A7D0-FA59464F1EE8}|wfGestionReservas\\wfGestionReservas.csproj|c:\\users\\isaiv\\source\\repos\\wfgestionreservas\\wfgestionreservas\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{51A7EB47-A42F-4633-A7D0-FA59464F1EE8}|wfGestionReservas\\wfGestionReservas.csproj|C:\\Users\\isaiv\\source\\repos\\wfGestionReservas\\wfgestionreservas\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51A7EB47-A42F-4633-A7D0-FA59464F1EE8}|wfGestionReservas\\wfGestionReservas.csproj|solutionrelative:wfgestionreservas\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51A7EB47-A42F-4633-A7D0-FA59464F1EE8}|wfGestionReservas\\wfGestionReservas.csproj|c:\\users\\isaiv\\source\\repos\\wfgestionreservas\\wfgestionreservas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{51A7EB47-A42F-4633-A7D0-FA59464F1EE8}|wfGestionReservas\\wfGestionReservas.csproj|C:\\Users\\isaiv\\source\\repos\\wfGestionReservas\\wfgestionreservas\\habitacionvip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51A7EB47-A42F-4633-A7D0-FA59464F1EE8}|wfGestionReservas\\wfGestionReservas.csproj|solutionrelative:wfgestionreservas\\habitacionvip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51A7EB47-A42F-4633-A7D0-FA59464F1EE8}|wfGestionReservas\\wfGestionReservas.csproj|C:\\Users\\isaiv\\source\\repos\\wfGestionReservas\\wfgestionreservas\\habitacionestandar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51A7EB47-A42F-4633-A7D0-FA59464F1EE8}|wfGestionReservas\\wfGestionReservas.csproj|solutionrelative:wfgestionreservas\\habitacionestandar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51A7EB47-A42F-4633-A7D0-FA59464F1EE8}|wfGestionReservas\\wfGestionReservas.csproj|C:\\Users\\isaiv\\source\\repos\\wfGestionReservas\\wfgestionreservas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{51A7EB47-A42F-4633-A7D0-FA59464F1EE8}|wfGestionReservas\\wfGestionReservas.csproj|solutionrelative:wfgestionreservas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -40,14 +40,14 @@
               "RelativeDocumentMoniker": "wfGestionReservas\\GestorReservas.cs",
               "ToolTip": "C:\\Users\\isaiv\\source\\repos\\wfGestionReservas\\wfGestionReservas\\GestorReservas.cs",
               "RelativeToolTip": "wfGestionReservas\\GestorReservas.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAgAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAHQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-22T20:28:46.365Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "HabitacionVIP.cs",
               "DocumentMoniker": "C:\\Users\\isaiv\\source\\repos\\wfGestionReservas\\wfGestionReservas\\HabitacionVIP.cs",
               "RelativeDocumentMoniker": "wfGestionReservas\\HabitacionVIP.cs",
@@ -55,12 +55,11 @@
               "RelativeToolTip": "wfGestionReservas\\HabitacionVIP.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T20:28:00.55Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T20:28:00.55Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "HabitacionEstandar.cs",
               "DocumentMoniker": "C:\\Users\\isaiv\\source\\repos\\wfGestionReservas\\wfGestionReservas\\HabitacionEstandar.cs",
               "RelativeDocumentMoniker": "wfGestionReservas\\HabitacionEstandar.cs",
@@ -68,18 +67,17 @@
               "RelativeToolTip": "wfGestionReservas\\HabitacionEstandar.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T20:27:38.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T20:27:38.074Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Reserva.cs",
               "DocumentMoniker": "C:\\Users\\isaiv\\source\\repos\\wfGestionReservas\\wfGestionReservas\\Reserva.cs",
               "RelativeDocumentMoniker": "wfGestionReservas\\Reserva.cs",
               "ToolTip": "C:\\Users\\isaiv\\source\\repos\\wfGestionReservas\\wfGestionReservas\\Reserva.cs",
               "RelativeToolTip": "wfGestionReservas\\Reserva.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-22T20:27:02.928Z",
               "EditorCaption": ""
@@ -93,8 +91,7 @@
               "ToolTip": "C:\\Users\\isaiv\\source\\repos\\wfGestionReservas\\wfGestionReservas\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "wfGestionReservas\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T20:26:01.024Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-03-22T20:26:01.024Z"
             }
           ]
         }
