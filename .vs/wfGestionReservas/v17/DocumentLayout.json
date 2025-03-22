@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\isaiv\\source\\repos\\wfGestionReservas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{51A7EB47-A42F-4633-A7D0-FA59464F1EE8}|wfGestionReservas\\wfGestionReservas.csproj|c:\\users\\isaiv\\source\\repos\\wfgestionreservas\\wfgestionreservas\\gestorreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51A7EB47-A42F-4633-A7D0-FA59464F1EE8}|wfGestionReservas\\wfGestionReservas.csproj|solutionrelative:wfgestionreservas\\gestorreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51A7EB47-A42F-4633-A7D0-FA59464F1EE8}|wfGestionReservas\\wfGestionReservas.csproj|c:\\users\\isaiv\\source\\repos\\wfgestionreservas\\wfgestionreservas\\habitacionvip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51A7EB47-A42F-4633-A7D0-FA59464F1EE8}|wfGestionReservas\\wfGestionReservas.csproj|solutionrelative:wfgestionreservas\\habitacionvip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51A7EB47-A42F-4633-A7D0-FA59464F1EE8}|wfGestionReservas\\wfGestionReservas.csproj|c:\\users\\isaiv\\source\\repos\\wfgestionreservas\\wfgestionreservas\\habitacionestandar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51A7EB47-A42F-4633-A7D0-FA59464F1EE8}|wfGestionReservas\\wfGestionReservas.csproj|solutionrelative:wfgestionreservas\\habitacionestandar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51A7EB47-A42F-4633-A7D0-FA59464F1EE8}|wfGestionReservas\\wfGestionReservas.csproj|c:\\users\\isaiv\\source\\repos\\wfgestionreservas\\wfgestionreservas\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51A7EB47-A42F-4633-A7D0-FA59464F1EE8}|wfGestionReservas\\wfGestionReservas.csproj|solutionrelative:wfgestionreservas\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51A7EB47-A42F-4633-A7D0-FA59464F1EE8}|wfGestionReservas\\wfGestionReservas.csproj|c:\\users\\isaiv\\source\\repos\\wfgestionreservas\\wfgestionreservas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{51A7EB47-A42F-4633-A7D0-FA59464F1EE8}|wfGestionReservas\\wfGestionReservas.csproj|solutionrelative:wfgestionreservas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GestorReservas.cs",
+              "DocumentMoniker": "C:\\Users\\isaiv\\source\\repos\\wfGestionReservas\\wfGestionReservas\\GestorReservas.cs",
+              "RelativeDocumentMoniker": "wfGestionReservas\\GestorReservas.cs",
+              "ToolTip": "C:\\Users\\isaiv\\source\\repos\\wfGestionReservas\\wfGestionReservas\\GestorReservas.cs",
+              "RelativeToolTip": "wfGestionReservas\\GestorReservas.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T20:28:46.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HabitacionVIP.cs",
+              "DocumentMoniker": "C:\\Users\\isaiv\\source\\repos\\wfGestionReservas\\wfGestionReservas\\HabitacionVIP.cs",
+              "RelativeDocumentMoniker": "wfGestionReservas\\HabitacionVIP.cs",
+              "ToolTip": "C:\\Users\\isaiv\\source\\repos\\wfGestionReservas\\wfGestionReservas\\HabitacionVIP.cs",
+              "RelativeToolTip": "wfGestionReservas\\HabitacionVIP.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T20:28:00.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HabitacionEstandar.cs",
+              "DocumentMoniker": "C:\\Users\\isaiv\\source\\repos\\wfGestionReservas\\wfGestionReservas\\HabitacionEstandar.cs",
+              "RelativeDocumentMoniker": "wfGestionReservas\\HabitacionEstandar.cs",
+              "ToolTip": "C:\\Users\\isaiv\\source\\repos\\wfGestionReservas\\wfGestionReservas\\HabitacionEstandar.cs",
+              "RelativeToolTip": "wfGestionReservas\\HabitacionEstandar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T20:27:38.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Reserva.cs",
+              "DocumentMoniker": "C:\\Users\\isaiv\\source\\repos\\wfGestionReservas\\wfGestionReservas\\Reserva.cs",
+              "RelativeDocumentMoniker": "wfGestionReservas\\Reserva.cs",
+              "ToolTip": "C:\\Users\\isaiv\\source\\repos\\wfGestionReservas\\wfGestionReservas\\Reserva.cs",
+              "RelativeToolTip": "wfGestionReservas\\Reserva.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T20:27:02.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\isaiv\\source\\repos\\wfGestionReservas\\wfGestionReservas\\Form1.cs",
+              "RelativeDocumentMoniker": "wfGestionReservas\\Form1.cs",
+              "ToolTip": "C:\\Users\\isaiv\\source\\repos\\wfGestionReservas\\wfGestionReservas\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "wfGestionReservas\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T20:26:01.024Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
