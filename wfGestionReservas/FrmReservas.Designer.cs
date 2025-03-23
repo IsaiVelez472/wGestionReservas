@@ -39,13 +39,13 @@
             this.TxtDuracionEstadia = new System.Windows.Forms.TextBox();
             this.TxtNumeroHabitación = new System.Windows.Forms.TextBox();
             this.TxtNombreCliente = new System.Windows.Forms.TextBox();
-            this.dtgReservas = new System.Windows.Forms.DataGridView();
+            this.DtgReservas = new System.Windows.Forms.DataGridView();
             this.BtnActualizarReserva = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
             this.CmbTipoHabitacion = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.TxtPrecioNoche = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgReservas)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DtgReservas)).BeginInit();
             this.SuspendLayout();
             // 
             // label8
@@ -81,9 +81,9 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(299, 236);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(102, 13);
+            this.label5.Size = new System.Drawing.Size(115, 13);
             this.label5.TabIndex = 32;
-            this.label5.Text = "Duración de estadia";
+            this.label5.Text = "Duración de la estadía";
             // 
             // label4
             // 
@@ -144,14 +144,14 @@
             this.TxtNombreCliente.TabIndex = 23;
             this.TxtNombreCliente.TextChanged += new System.EventHandler(this.TxtNombreCliente_TextChanged);
             // 
-            // dtgReservas
+            // DtgReservas
             // 
-            this.dtgReservas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgReservas.Location = new System.Drawing.Point(80, 386);
-            this.dtgReservas.Name = "dtgReservas";
-            this.dtgReservas.Size = new System.Drawing.Size(759, 234);
-            this.dtgReservas.TabIndex = 21;
-            this.dtgReservas.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DtgReservas_CellClick);
+            this.DtgReservas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DtgReservas.Location = new System.Drawing.Point(80, 386);
+            this.DtgReservas.Name = "DtgReservas";
+            this.DtgReservas.Size = new System.Drawing.Size(759, 234);
+            this.DtgReservas.TabIndex = 21;
+            this.DtgReservas.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DtgReservas_CellClick);
             // 
             // BtnActualizarReserva
             // 
@@ -220,11 +220,11 @@
             this.Controls.Add(this.TxtDuracionEstadia);
             this.Controls.Add(this.TxtNumeroHabitación);
             this.Controls.Add(this.TxtNombreCliente);
-            this.Controls.Add(this.dtgReservas);
+            this.Controls.Add(this.DtgReservas);
             this.Name = "FrmReservas";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.FrmReservas_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dtgReservas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DtgReservas)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -242,7 +242,7 @@
         private System.Windows.Forms.TextBox TxtDuracionEstadia;
         private System.Windows.Forms.TextBox TxtNumeroHabitación;
         private System.Windows.Forms.TextBox TxtNombreCliente;
-        private System.Windows.Forms.DataGridView dtgReservas;
+        private System.Windows.Forms.DataGridView DtgReservas;
         private System.Windows.Forms.Button BtnActualizarReserva;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.ComboBox CmbTipoHabitacion;

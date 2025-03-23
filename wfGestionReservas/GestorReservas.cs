@@ -40,40 +40,61 @@ namespace wfGestionReservas
             }
         }
 
-        public void AgregarReserva(Reserva reserva)
+        public Reserva ObtenerReservaPorId(Guid id)
+        {
+            try
+            {
+                Reserva reserva = reservas.FirstOrDefault(r => r.Id == id);
+
+                if (reserva == null)
+                {
+                    MessageBox.Show("No se encontró la reserva con el ID especificado.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+
+                return reserva;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al obtener la reserva: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return null;
+            }
+        }
+
+        public bool AgregarReserva(Reserva reserva)
         {
             try
             {
                 if (reserva == null)
                 {
                     MessageBox.Show("La reserva no puede ser nula.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return;
+                    return false;
                 }
 
                 DateTime fechaInicioNueva = reserva.FechaReserva;
-                DateTime fechaFinNueva = reserva.FechaReserva.AddDays(reserva.DuracionEstadia - 1);
+                DateTime fechaFinNueva = reserva.FechaReserva.AddDays(reserva.DuracionEstadia);
 
                 bool existeReserva = reservas.Any(r =>
                     r.NumeroHabitacion == reserva.NumeroHabitacion &&
-                    RangoFechasSeSuperpone(r.FechaReserva, r.FechaReserva.AddDays(r.DuracionEstadia - 1), fechaInicioNueva, fechaFinNueva)
+                    RangoFechasSeSuperpone(r.FechaReserva, r.FechaReserva.AddDays(r.DuracionEstadia), fechaInicioNueva, fechaFinNueva)
                 );
 
                 if (existeReserva)
                 {
                     MessageBox.Show("Esta habitación ya tiene una reserva para alguno de estos días, revisa la fecha.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return;
+                    return false;
                 }
 
                 reservas.Add(reserva);
-                MessageBox.Show("Reserva agregada correctamente.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return true;
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"Error al agregar la reserva: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
             }
         }
 
-        public bool ActualizarReserva(Guid id, string nuevoNombre, int nuevaHabitacion, DateTime nuevaFecha, int nuevaDuracion)
+        public bool ActualizarReserva(Guid id, string nuevoNombre, int nuevaHabitacion, DateTime nuevaFecha, int nuevaDuracion, double nuevaTarifaPorNoche)
         {
             try
             {
@@ -85,7 +106,7 @@ namespace wfGestionReservas
                 }
 
                 DateTime fechaInicioNueva = nuevaFecha;
-                DateTime fechaFinNueva = nuevaFecha.AddDays(nuevaDuracion - 1);
+                DateTime fechaFinNueva = nuevaFecha.AddDays(nuevaDuracion);
 
                 bool existeSuperposicion = reservas.Any(r =>
                     r.Id != id &&
@@ -103,7 +124,16 @@ namespace wfGestionReservas
                 reserva.NumeroHabitacion = nuevaHabitacion;
                 reserva.FechaReserva = nuevaFecha;
                 reserva.DuracionEstadia = nuevaDuracion;
-                MessageBox.Show("Reserva actualizada correctamente.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                if (reserva is HabitacionEstandar habitacionEstandar)
+                {
+                    habitacionEstandar.TarifaPorNoche = nuevaTarifaPorNoche;
+                }
+                else if (reserva is HabitacionVIP habitacionVIP)
+                {
+                    habitacionVIP.TarifaPorNoche = nuevaTarifaPorNoche;
+                }
+
                 return true;
             }
             catch (Exception ex)
@@ -125,7 +155,6 @@ namespace wfGestionReservas
                 }
 
                 reservas.Remove(reserva);
-                MessageBox.Show("Reserva eliminada correctamente.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return true;
             }
             catch (Exception ex)
